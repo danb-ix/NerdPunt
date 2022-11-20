@@ -13,7 +13,7 @@ module.exports = {
             .setRequired(true)),
 
     async execute(interaction) {
-        console.log(chalk.blue(`${interaction.user.tag} used the command: /bstatus`))
+        console.log(chalk.blue(`${interaction.user.tag} used the command: /status`))
 
 
         const status = interaction.options.getString('status')

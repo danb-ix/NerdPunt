@@ -20,8 +20,6 @@ FOR THE NERDS, BY THE NERDS!
     .setColor(0xF44F52)
     .setTimestamp()
 
-
-
 module.exports = {
     data: new SlashCommandBuilder()
 	.setName('triggerwelcomemsg')
@@ -30,12 +28,10 @@ module.exports = {
     async execute(interaction) {
     const channel = interaction.client.channels.cache.get("967289033006911489");
 	console.log(chalk.blue(`${interaction.user.tag} used the command: /triggerwelcomemsg`))
-
         if (interaction.user.id !== '364902391717298181' && interaction.user.id !== '605044485830868993') return interaction.reply({
             content: 'You are not allowed to use this command',
             ephemeral: true
         })
-
     channel.send({ embeds: [userembed], content: `<@364902391717298181>`})
     channel.send({ files: [file] })
     

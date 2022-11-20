@@ -70,7 +70,7 @@ client.once('ready', async () => {
         type: "PLAYING",
     })
 
-    const botver = "1.0.0"; //bot version string
+    const botver = "2.1.3"; //bot version string
     const serverNumb = client.guilds.cache.size //records how many servers the bot is in
     const botProfile = client.user.tag //records the username and discriminator the bot is logged in as
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
