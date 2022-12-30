@@ -18,7 +18,7 @@ module.exports = {
 
         const status = interaction.options.getString('status')
 
-        if (interaction.user.id !== '364902391717298181' && interaction.user.id !== '605044485830868993') return interaction.reply({
+        if (interaction.user.id !== '364902391717298181' && interaction.user.id !== '605044485830868993' && interaction.user.id !== '843971600529227796' && interaction.user.id !== '187073317318950912') return interaction.reply({
             content: 'You are not allowed to use this command',
             ephemeral: true
         })
