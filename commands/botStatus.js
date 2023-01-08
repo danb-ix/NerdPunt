@@ -24,10 +24,10 @@ module.exports = {
         })
 
         if (status === "default") {
-            interaction.client.user.setActivity("https://discord.gg/cQk2msf9pQ", {
+            interaction.client.user.setActivity("nerdpunt.net/discord", {
                 type: "PLAYING",
             })
-            await interaction.reply(`Changed status to \`Playing https://discord.gg/cQk2msf9pQ\``)
+            await interaction.reply(`Changed status to \`Playing **nerdpunt.net/discord**\``)
         } else {
             interaction.client.user.setActivity(status, {
                 type: "PLAYING",

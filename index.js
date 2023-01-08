@@ -66,7 +66,7 @@ client.on('messageCreate', async (message) => {
 
 client.once('ready', async () => {
 
-    client.user.setActivity("https://discord.gg/cZfw8sWXAf", {
+    client.user.setActivity("nerdpunt.net/discord", {
         type: "PLAYING",
     })
 
