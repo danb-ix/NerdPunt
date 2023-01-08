@@ -19,7 +19,7 @@ module.exports = {
 
     async execute(interaction) {
         try {
-        await interaction.reply(`Rank command verification has been temporarily disabled. Please use the screenshot verification command in the mean time. Read the pins for instructions on how to do so.`)
+        await interaction.reply(`Rank command verification has been temporarily disabled. Please read the pins for alternative ways to verify your rank. Be sure to <#993444967940886620> if you need any help.`)
         // await interaction.deferReply();    
         // console.log(chalk.blue(`${interaction.user.tag} used the command: /rank`))
 
