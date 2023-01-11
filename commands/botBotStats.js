@@ -29,10 +29,6 @@ module.exports = {
 Hey! I'm ${info.botProfile}, a bot designed for the nerds! 
 I was written in NodeJS by 49Hz#0140 (364902391717298181) using the [DJS](https://discord.js.org/#/) library.          
 
-**Acknowledgements**
-Thank you to **amplex#6131** for helping create a few of the commands, and being a massive help in the debugging phase.
-Thank you to [Kyroskoh](https://www.twitch.tv/kyroskoh) for helping with the /rank command.
-
 **Stats**`)
               .addFields(
                   { name: 'Last restart', value: started, inline: true},
